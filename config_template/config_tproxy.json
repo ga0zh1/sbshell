@@ -31,7 +31,7 @@
    ],
    "rules": 
    [
-     {"domain_suffix":[".sf-express.com", ".zoom.us"], "server": "dns_sf"}，
+     {"domain_suffix":[".sf-express.com", ".zoom.us"], "server": "dns_sf"},
      {"outbound": "any", "server": "dns_direct", "disable_cache": true},
      {"clash_mode": "Direct", "server": "dns_direct"},
      {"clash_mode": "Global", "server": "dns_proxy"},
