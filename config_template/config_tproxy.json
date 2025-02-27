@@ -31,12 +31,12 @@
    ],
    "rules": 
    [
+     {"domain_suffix":[".sf-express.com", ".zoom.us"], "server": "dns_sf"}，
      {"outbound": "any", "server": "dns_direct", "disable_cache": true},
      {"clash_mode": "Direct", "server": "dns_direct"},
      {"clash_mode": "Global", "server": "dns_proxy"},
      {"rule_set": "geosite-cn", "server": "dns_direct"},
-     {"rule_set": "geosite-geolocation-!cn", "server": "dns_proxy"},
-     {"domain_suffix":[".sf-express.com", ".zoom.us"], "server": "dns_sf"}
+     {"rule_set": "geosite-geolocation-!cn", "server": "dns_proxy"}
    ],
    "final": "dns_proxy",
    "strategy": "ipv4_only"
